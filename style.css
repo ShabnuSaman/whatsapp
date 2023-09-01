@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fcf5eb;
+  
+}
+/* -----------------------------------main container ------------------------------------------ */
+.header-container{
+    width: 100%;
+    background-color:  #fcf5eb transparent;
+    height: 80px;
+    align-items: center;
+    display: flex; 
+}
+
+/* -----------------------------------nav bar------------------------------------------ */
+.nav-logo{
+    width: 134px;
+    height: 30.26px;
+    margin-top:7px;
+    margin-left: 35px;
+    margin-right: 250px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    font-weight: 50px;
+    margin-left: 30px;
+    margin-top: 30.26;
+}
+.web a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    align-items: center;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    font-weight: 50px;
+    margin-left: 80px;
+    margin-top: 30.26;
+}
+
+/* -----------------------------------nav button------------------------------------------ */
+.dwn-btn {
+    border: 1px solid;
+    border-color: black;
+    background-color: #25d366;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight:50px;
+    align-items: center;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 2px;
+    letter-spacing: -0.01em;
+    line-height: 25px;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+.dwn-btn i{
+    margin-left: 10px;
+}
+.dwn-btn:hover{
+    background-color: black;
+    color: white;
+}
+/* -----------------------------------main page ------------------------------------------ */
+.header-main-img{
+    background-image: url("images/header1.png");
+    margin: 40px auto;
+    width: 98%;
+    height: 725px;
+    border-radius: 40px;
+}
+.main-left{
+    color:white;
+    position: relative;
+    top: 300px;
+    left: 150px;
+    font-size: 20px;  
+}
+.h4{
+    font-size: 50px;
+    letter-spacing: -0.04em;
+    line-height: 1;
+}
+.main-left .dwn-btn{
+    position:relative;
+    top: 15px;
+    width: 200px;
+}
+.header2-img {
+    width: 450px;
+    margin-left: 780px;
+    margin-top: 50px;
+    position: relative;
+    top: -213px;
+}
+.header3-img{
+    width: 450px;
+    margin-left: 780px;
+    margin-top: 50px;
+    position: relative;
+    top: -300px;
+}
+.header4-img{
+    width: 450px;
+    margin-left: 780px;
+    margin-top: 50px;
+    position: relative;
+    top: -325px;
+}
+.header5-img{
+    width: 450px;
+    margin-left: 780px;
+    margin-top: 50px;
+    position: relative;
+    top: -355px;
+}
+.header6-img{
+    width: 450px;
+    margin-left: 700px;
+    margin-top: 50px;
+    position: relative;
+    top: -400px;
+}
+/* -----------------------------------second page ------------------------------------------ */
+.main2-img1{
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: relative;
+    top: 10px;
+}
+.para1{
+    position: relative;
+    top: 110px;
+    font-size: 40px;
+    margin-left: -10px;
+    font-weight: 400px;
+    text-align: center;
+}
+.main2-img2{
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: relative;
+    top: 120px;
+}
+/* -----------------------------------thrid page------------------------------------------ */
+.header2{
+    font-size: 44px;
+    font-style: inherit;
+    letter-spacing: 0.01em;
+    position: relative;
+    top: 450px;
+    margin-left: 160px;
+    color: black;
+
+}
+.para2{
+    font-size: 18px;
+    font-weight: lighter;
+    position: relative;
+    top: 460px;
+    text-align: left;
+    margin-left: 160px;
+    line-height: normal;
+    color: black;
+}
+.main3-img1{
+    width:30%;
+    height:650px;
+    margin-left: 900px;
+}
+.learn-more{
+    font-size: 18px;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 160px;
+    position: relative;
+    top: -150px;
+    
+}
+/* -----------------------------------fourth page------------------------------------------ */
+.header-main4{
+    background-color: #111B21;
+    color: white;
+    height: 102vh;
+}
+.header3{
+    font-size: 60px;
+    font-style: inherit;
+    letter-spacing: 0.01em;
+    position: relative;
+    top: -460px;
+    margin-left: 800px;
+
+}
+.header3-1{
+    font-size: 50px;
+    font-style: inherit;
+    color: #25d366;
+    letter-spacing: 0.01em;
+    position: relative;
+    top: -460px;
+    margin-left: 800px;
+}
+.para3{
+    font-size: 18px;
+    font-weight: lighter;
+    position: relative;
+    top: -430px;
+    text-align: left;
+    margin-left: 800px;
+    line-height: normal;
+}
+.main4-img1{
+    width:50%;
+    height:700px;
+    margin-left: 50px;
+    position: relative;
+    top: 10px;
+    
+}
+.learn-more1{
+    font-size: 18px;
+    color: #25d366;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 800px;
+    position: relative;
+    top: -420px;
+}
+/* -----------------------------------fifth page------------------------------------------ */
+.header4{
+    font-size: 44px;
+    font-style: inherit;
+    letter-spacing: 0.01em;
+    position: relative;
+    top: 270px;
+    margin-left: 160px;
+    color: black;
+}
+.para4{
+    font-size: 18px;
+    font-weight: lighter;
+    position: relative;
+    top: 280px;
+    text-align: left;
+    margin-left: 160px;
+    line-height: normal;
+    color: black;
+}
+.main5-img1{
+    width:30%;
+    height:550px;
+    margin-left: 900px;
+    position: relative;
+    top: -50px;
+}
+.learn-more2{
+    font-size: 18px;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 160px;
+    position: relative;
+    top:-250px;
+    
+}
+/* -----------------------------------sixth page------------------------------------------ */
+.main6-img1{
+    width: 30%;
+    height: 700px;
+    margin-left: 200px;
+    position: relative;
+    top: 50px
+
+}
+.learn-more3{
+    font-size: 18px;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 800px;
+    position: relative;
+    top: -410px;
+    
+
+}
+/* -----------------------------------footer------------------------------------------ */
+.footer{
+    background-color: #111B21;
+    height: 80vh;
+    width: 100%;
+    border-radius: 10px;
+    padding: 50px 100px 10px;
+    border-bottom: 1px solid #25d366;
+    
+}
+.logo-footer{
+    position: relative;
+    top: 150px;
+ 
+}
+.dwn-btn2{
+    border: 1px solid;
+    border-color: black;
+    background-color: #25d366;
+    position: relative;
+    top: 200px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight:50px;
+    align-items: center;
+    display: flex;
+    margin-top: 2px;
+    letter-spacing: -0.01em;
+    line-height: 25px;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+.dwn-btn2 i{
+    margin-left: 10px;
+}
+.dwn-btn2:hover{
+    background-color: black;
+    color: white;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    margin-left: 280px;
+    color: white;
+    font-size: 18px;
+} 
+.footer-col{
+    width: -100px;
+    padding: 0 50px;
+    position: relative;
+    top: 70px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.footer-col ul{
+    list-style: none; 
+    margin-bottom: 20px;
+}
+ .footer-col  a {
+     font-size: 16px;
+     font-weight: lighter;
+    text-decoration: none;
+    color: white;
+    line-height: 5px;
+    margin-bottom: 20px;
+} 
+.footer-col h4{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+/*-------------------------------------FINISH-------------------------------------------- */
